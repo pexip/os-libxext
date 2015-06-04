@@ -1,7 +1,8 @@
 Source: libxext
 Section: x11
 Priority: optional
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Build-Depends:
 # dpkg-buildflags --export=configure
  dpkg-dev (>= 1.16.1),
@@ -22,6 +23,7 @@ Build-Depends:
 Standards-Version: 3.9.2
 Vcs-Git: git://git.debian.org/git/pkg-xorg/lib/libxext
 Vcs-Browser: http://git.debian.org/?p=pkg-xorg/lib/libxext.git
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ jessie
 
 Package: libxext6
 Section: libs
